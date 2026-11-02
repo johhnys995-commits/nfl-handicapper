@@ -125,8 +125,8 @@ GAME_DATA = {
         "surface": None,
     },
     "teams": {
-        "home": TEAM_TEMPLATE.copy(),
-        "away": TEAM_TEMPLATE.copy(),
+        "home": deepcopy(TEAM_TEMPLATE),
+"away": deepcopy(TEAM_TEMPLATE),
     },
     "weather": {
         "temperature": None,
