@@ -1,4 +1,4 @@
-
+1
 """
 NFL HANDICAPPER PROJECT
 Shared Game Data Foundation
@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from typing import Any
 import json
 
-
+from copy import deepcopy
 VERSION = "1.0"
 
 SPECIALISTS = [
